@@ -42,7 +42,7 @@ fun main(args: Array<String>) {
                 }
                 '%' -> {
                     result = per(result,num)
-
+                    operator = ' '
                 }
 
                 else -> {
